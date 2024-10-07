@@ -1,0 +1,30 @@
+{
+    "manifest_version": 3,
+    "name": "__MSG_extension_name__",
+    "version": "1.0.0",
+    "description": "__MSG_extension_name__",
+    "author": {
+        "email": "dev@example.com"
+     },
+
+    "default_locale": "en",
+    "icons": {
+      "16": "icons.png",
+      "48": "icons.png",
+      "128": "icons.png"
+    },
+    "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+    },
+
+    "action": {
+    "default_icon": {       
+      "16": "icons.png",
+      "24": "icons.png",
+      "32": "icons.png"
+    },
+     "default_title": "TabMaster",
+     "default_popup": "src/popup/popup.html"
+  }
+}
